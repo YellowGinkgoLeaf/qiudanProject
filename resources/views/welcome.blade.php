@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>友如作画需求淡</title>
+        <title>JustEatPotato的个人网站</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <script data-main="assets/js/main" src="assets/js/require.js"></script>
 
         <style>
             html, body {
