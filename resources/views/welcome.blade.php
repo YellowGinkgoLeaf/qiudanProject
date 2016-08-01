@@ -3,44 +3,15 @@
     <head>
         <title>JustEatPotato的个人网站</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <script data-main="assets/js/main" src="assets/js/require.js"></script>
 
-        <style>
-            html, body {
-                height: 100%;
-            }
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">网站今天开始建设啦！</div>
-            </div>
+        <textarea class="input-group-lg" data-bind="value:textKoBind"></textarea>
+        <div data-bind="visible:textKoBind()">
+            <span data-bind="text:$root.noGapBegin"></span>
         </div>
     </body>
 </html>
